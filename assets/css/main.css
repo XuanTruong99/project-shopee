@@ -234,7 +234,7 @@
     transform-origin: calc(100% - 22px) top;
     will-change: opacity, transform;
     animation: headerNotifyGrowth ease-in 0.25s;
-    z-index: 1;
+    z-index: 10;
 }
 
 .header__notify::before {
@@ -280,9 +280,6 @@
 .header__navbar-item-bell,
 .header__navbar-item-ques-icon {
     font-size: 1.5rem;
-}
-
-.header__notify-item {
 }
 
 .header__notify-item--readed {
@@ -368,10 +365,6 @@
     color: var(--primary-color);
     font-weight: 400;
     cursor: pointer;
-}
-
-.auth-form__form {
-    
 }
 
 .auth-form__group {
@@ -538,7 +531,7 @@
     box-shadow: 0 1px 3.125rem 0 rgba(0, 0, 0, 0.2);
     animation: fadeIn ease 0.2s;
     cursor: default;
-    z-index: 1;
+    z-index: 10;
 }
 
 .header__cart-notify--no-product {
